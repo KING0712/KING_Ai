@@ -1,6 +1,6 @@
 {
-    "name": "BRANDED-AI", 
-    "logo": "https://te.legra.ph/file/e3c1ae96d329acd2d99cf.jpg",
+    "name": "KING-Ai", 
+    "logo": "https://telegra.ph/file/64e4440d641998b4d9749.jpg",
     "description": "An Advanced Telegram UserId Chatbot.",
     "keywords": [
     "telegram",
@@ -10,19 +10,19 @@
   ],
     "env": {
         "SESSION_NAME": {
-            "description": "Pyrogram string session get it from @BRANDEDSTRINGSESSION_BOT",
+            "description": "SESSION DALNA CHUTIYE",
             "required": true
         },        
         "MONGO_URL": {
-            "description": "mongo db url here",
+            "description": "KHUD KI MONGO DB DALO",
             "required": true
         },
         "API_ID": {
-            "description": "telegram api id here",
+            "description": "APNI API ID DALNA BC",
             "required": true
         },
         "API_HASH": {
-            "description": "telegram api hash here",
+            "description": "API HASH DAL BSDK",
             "required": true
         }
     },
