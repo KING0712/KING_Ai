@@ -14,10 +14,11 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "25515770") 
-API_HASH = os.environ.get("API_HASH", "adb1dc85efc79c30a75e9c3b3bc794ac") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "BQAGeUL5hZasQMYxOGvgD--XnHBPUtCYJPdmkU6gqQWUwuq5bcernf9MYLfacI7TGhVdYuZ9PA4F1B75gSuGCsNYpPXcYPFBcycl4CVEgIg5lKbCKsdopXG1qYRw6INWq1ATiF5Nd2t751AH0G8s478q9wztNZmmrucj9zEMLLoGckDAZWAOzZ6E1QAUfMugGId35JPWnpaI7JPvFeGrapnxj4wG9IZJUoeW7KFsoISg6P7EaKb7hp2Wr4BYdQth3U81RyypEcgOzbZc4kS3XubPGFU3fl0rSXBzy74SmcUo82YYJ44WH6MNDULS4kPW8nX_vAVTBh_GzBGmpQi-cR8TAAAAAWS9xn0A")
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority") 
+API_ID = os.environ.get("API_ID", "25646144") 
+API_HASH = os.environ.get("API_HASH", "12f189832cff086ac98413c547fbab5c") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "BQBHfDSQVw1mOmAS1pEz-xkI3rfXCyEeUycvE_-uHcg-fWzL90UEJ4kOaYvcind4lhi06X_OZrWrJdnb00rjZk3Z8aQdtrm_K4yF5b1pbA7CZqdDziYuclpQLLuSeOo0jnk0VQCm5UN8aNowUfku433J1a43quBer07RIUM73WlU2355avRCrzlFHewWMLeoaSkC3GqF2lQ3BaJqOSp-DlyqLfW4qkj-QrL21JexPZryUSYVPiM4DAGCnJpJ3n1xEr1Gc2UzGVLb6pb4hPWR5WgrpKmE6zn3jV03nk1T2QbYaB76N6CUiRuw-XUQzi4JAD-Ukfu9d4NftvM-XjJkORAAAAAZzCS4kA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://bikashxd:bgtop@cluster0.gh1hqe3.mongodb.net/?retryWrites=true&w=majority")
+") 
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
@@ -38,21 +39,19 @@ async def chatbot(client, message):
     umm = await message.reply_sticker("")
     await asyncio.sleep(2)
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+        photo=f"https://telegra.ph/file/64e4440d641998b4d9749.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
 👻 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ ♥️
+ᴏғ ♻️ ᴋɪɴɢ ♥️
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ](https://t.me/BRANDEDKING82
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/BRANDRD_BOT)
-┣★ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [ᴄʜᴀᴛ](https://t.me/BRANDED_WORLD)
+┣★ ᴄʀᴇᴀᴛᴇʀ [ᴋɪɴɢ](https://t.me/l_MR_ll_KING_l
 ┗━━━━━━━━━━━━━━━━━┛
 🥵
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @BRANDEDKING82""",
+IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @l_MR_ll_KING_l""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("💟 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💟", url=f"https://t.me/BRANDED_WORLD")]]
+            [[InlineKeyboardButton("🖤 OWNER 🖤", url=f"https://t.me/l_MR_ll_KING_l")]]
         ),
     ) 
 
@@ -61,7 +60,7 @@ IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @BRANDEDKING82""",
     filters.command("alive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**ᴀʟᴏɴᴇ ɪs ᴀʟɪᴠᴇ**")
+    await message.reply_text(f"**KING IS ALIVE**")
     
     
 @client.on_message(
